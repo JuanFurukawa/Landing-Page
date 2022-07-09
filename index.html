@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Projeto Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="elements.css">
+    <link rel="stylesheet" href="classes.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="AULA-27-LANDING-PAGE.css">
+</head>
+
+<body class="main-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+        
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Intro</a></li>
+                    <li><a href="#functionalities-text">Funcionalidades</a></li>
+                    <li><a href="#sobre1">Sobre</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+<div class="menu-spacing"></div>
+
+<section id="home" class="main-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>UMA BREVE INTRODUÇÃO
+            SOBRE O PROJETO</h2>
+        <p>Olá, meu nome é Juan! Esse é o meu primeiro projeto teste criado à partir das noções do módulo do curso de JavaScript e TypeScript destinado ao HTML5 e CSS3 para iniciantes, apenas para ter noção das funcionalidades básicas da linguagem. Sem nenhum conteúdo expressivo, apenas uma Landing Page para testar a estrutura e as funcionalidades.</p>
+        </div>
+        <div class="intro-img">
+            <img src="/HTML5 e CSS3/AULA - 27 - LANDING PAGE/img/javascript.svg" alt="Logo de CSS, HTML e JS">
+        </div>
+    </div>
+</section>
+
+<section id="functionalities-text" class="white-bg section">
+    <div class="main-content functionalities-text-content">
+        <h2>QUAIS AS FUNCIONALIDADES?</h2>
+        <p>Alguns testes realizados para entender a interação de elementos dentro do HTML e CSS, testes com validação, flexbox, margin, padding, viewport, headings, id, class, menus, tabelas, semântica, especificidade e herança, box model, display block e float, position, diferentes unidades de medida e SVG. Sem um grande aprofundamento e detalhamento de cada área, mas para entender de uma forma mais básica, e a princípio para ter noções básicas e intermediárias sobre o HTML e CSS unido ao JavaScript (apenas para SVG).
+        <br></br>
+        Dessa forma, mesclando os ensinamentos obtidos nas aulas junto com outras pesquisas para auxiliar, consegui criar algo que não fosse uma cópia de códigos, mas um projeto com elementos personalizados e criados em cima de um conhecimento assimilado.
+        </p> 
+    </div>
+</section>
+
+<section id="sobre1" class="sobre1 main-bg section">
+    <div class="main-content grid-content">
+        <h2 class="sobre-main-heading">ESSA LANDING PAGE É 100% HTML E CSS</h2>
+
+        <p class="sobre-description">That's the Section Grid</p>
+        <div class="grade">
+            <article>
+                <h3>Grid 1</h3>
+                <p>No projeto em questão, o professor não quis utilizar JavaScript com o intuito de se voltar apenas para o HTML5 e CSS3! Tudo começou com testes, tentando imitar a estrutura de outros sites utilizando apenas o HTML, e gradativamente ir aumentando a dificuldade, envolvendo posicionamento dos elementos, edição e trabalhando a criatividade para solucionar problemas.</p>
+            </article>
+            <article>
+                <h3>Grid 2</h3>
+                <p>No início gostaria de ter colocado apenas Lorem nos textos, mas acredito que poderia ser algo a mais do que isso. E ao invés de colocar apenas textos como demonstração de algum conteúdo, realmente passar uma ideia melhor do que eu queria.</p>
+            </article>
+            <article>
+                <h3>Grid 3</h3>
+                <p>Além desse projeto inicial, acredito que haverão outros projetos disponíveis no meu GitHub após esse aqui, espero me desenvolver cada vez mais, aplicando novos conhecimentos e aumentando o nível de complexidade!</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="sobre1 white-bg section">
+    <div class="main-content sobre1-content">
+        <h2 class="sobre-main-heading">Gallery</h2>
+
+        <p class="sobre-description">That's the Gallery!</p>
+        
+        <div class="grade">    
+            <div class="gallery-img">
+                <img src="img/boy.jpg" alt="random"/>
+            </div>
+            
+            <div class="gallery-img">
+                <img src="img/wall.jpg" alt="random"/>
+            </div>
+
+            <div class="gallery-img">
+                <img src="img/grand.jpg" alt="random"/>
+            </div>
+
+            <div class="gallery-img">
+                <img src="img/three.jpg" alt="random"/>
+            </div>
+
+            <div class="gallery-img">
+                <img src="img/car.jpg" alt="random"/>
+            </div>
+
+            <div class="gallery-img">
+                <img src="img/basket.jpg" alt="random"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="main-bg section">
+    <div class="main-content functionalities-text-content">
+        <h2>Pricing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium reprehenderit exercitationem expedita error doloribus eius sit esse quas id perferendis pariatur non tenetur, harum facere quibusdam enim laboriosam corporis saepe.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium reprehenderit exercitationem expedita error doloribus eius sit esse quas id perferendis pariatur non tenetur, harum facere quibusdam enim laboriosam corporis saepe.</p>
+
+        <div class="responsive-table">
+            <table>
+                <caption>Pricing Table</caption>
+
+                <thead>
+                    <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                    <th>Title 5</th>
+                    <th>Title 6</th>
+                    <th>Title 7</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                        <td>Content 6</td>
+                        <td>Content 7</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                        <td>Content 6</td>
+                        <td>Content 7</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                        <td>Content 6</td>
+                        <td>Content 7</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td class="bw"></td>
+                        <td class="bw"></td>
+                        <td class="bw"></td>
+                        <td class="bw"></td>
+                        <td class="bw"></td>
+                        <td class="bw"></td>
+                        <td>Testando</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="intro white-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>CONTATE-ME!</h2>
+        <p>Eu já possuia noções e experiência básica de HTML mas não tive a oportunidade de aprender mais e me aprofundar a ponto de criar uma página sozinho. Estou satisfeito com o meu primeiro resultado porque este superou as minhas expectativas! Com certeza é possível melhorar muito mais do que isso, o que demanda muito treino, aprendizado, experiência e criatividade; por favor, me dê a sua opinião. Esse é o meu primeiro projeto!</p>
+    
+        </div>
+        <div class="intro-img">
+            <img src="/HTML5 e CSS3/AULA - 27 - LANDING PAGE/img/contactus.svg" alt="Imagem ilustrativa de contato">
+        </div>
+
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>CONTACT ME</legend>
+
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30 rows" rows="10" placeholder="Write your text for me!"></textarea >
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Send Message</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer white-bg">
+    <p>Feito com <span class="heart">♥</span> por Juan Lino Furukawa
+        <p> Instagram: <a rel="nofollow" target="blank" href="https://www.instagram.com/lino_furukawa/">@lino_furukawa</a></p>
+        <p> GitHub: <a rel="nofollow" target="blank" href="https://github.com/JuanFurukawa">JuanFurukawa</a></p>
+        <p> LinkedIn: <a rel="nofollow" target="blank" href="http://www.linkedin.com/in/JuanLinoFurukawa">Juan Lino</a></p>
+    </p>
+</footer>
+
+<a class="back-to-top" href="#">ᐅ</a>
+
+</body>
+
+</html>
